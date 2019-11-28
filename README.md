@@ -1,5 +1,5 @@
 
-
+[![Build Status](https://dev.azure.com/tangentsolution0127/ContosoAir/_apis/build/status/tangent-devop.ContosoAir?branchName=master)](https://dev.azure.com/tangentsolution0127/ContosoAir/_build/latest?definitionId=1&branchName=master)
 
 # Microsoft.Github CI Demo
 
