@@ -14,10 +14,11 @@ trigger:
   - master
 steps:
   - task: Npm@1
-    displayName: 'npm install'
     inputs:
-     workingDir: web/
-     verbose: true
+      command: install
+  - script: 'npm test'
+    displayName: 'Run unit tests'
+    continueOnError: true
   - task: PublishTestResults@2
     displayName: 'Publish Test Results'
     condition: succeededOrFailed()
